@@ -1,0 +1,85 @@
+# SAUND v3.4 example — Raw Bassline Techno (128 BPM)
+# Bass riff = track identity. Instant attack, no intro silence.
+
+[GLOBAL: RAW BASSLINE TECHNO; 128 BPM; F MINOR;
+BASS RIFF = TRACK IDENTITY; KICK > BASS RIFF > PERCUSSION > FX > VOCAL;
+RAW/PROVOCATIVE/MECHANICAL/FUNKY/UNSTOPPABLE;
+CONTINUOUS_ENERGY; NO_BREAKDOWNS; NO_HALF_TIME; NO_DEAD_AIR;
+VOCAL = RHYTHMIC HUMAN ACCENT, NEVER ROBOTIC;
+INSTANT BASS ENTRY FROM 0:00; NO FADE-IN.]
+[ARC: I G S K P R F O]
+[DUR-PLAN: TOTAL=2:30; I=7,G=14,S=14,K=54,R=14,F=27,O=20]
+[SPEAKERS: G=MALE:RAW_SHOUT; S=MALE:RAW_SHOUT; K=MALE:RAW_SHOUT;
+P=MALE:RAW_SHOUT; R=MALE:RAW_SHOUT; F=MALE:RAW_SHOUT; O=MALE:RAW_SHOUT]
+[VOC-MAP: G=chest/-/shout/stab; S=chest/-/shout/stab;
+K=chest/-/shout/hook; P=chest/-/shout/hook;
+R=chest/-/shout/stab; F=chest/-/shout/hook; O=chest/-/shout/stab]
+[INST-MAP: KCK=hard-four-on-floor/punch+click/short-tail/mono;
+SUB=deep-mono/clean-stable; BAS=buzzing-nasal/distorted/vowel-riff/mono<120;
+SAW=high-harmonic-buzz/filtered-counter; SNR=dry-clap;
+HAT=tight-metallic-ticks; PRC=metallic-ticks/syncopated-fills]
+[GRV-MAP: KCK=FOUR_ON_FLOOR; SNR=CLAP_OFFBEAT;
+HAT=OFFBEAT_8TH+OPEN_ACCENT; BAS=RIFF_1_16;
+PRC=GHOST_TEXTURE; SAW=STAB_OFFBEAT@K,P,F+GATE_1_16@G,S]
+[LEAD-MAP: I,O=RIFF/BAS/~+F/low-mid/hook;
+G,S=RIFF/BAS/~/low-mid/hook;
+K,P,F=RIFF/BAS/~+F↑/low-mid/hook;
+R=RIFF/BAS/MUTATE_RHYTHM/low-mid/hook;
+K,P,F=COUNTER/SAW/STATIC/mid/metallic-stab]
+[FX-MAP: K,F=BAS:F↓+P; R=BAS:G; S>K=ALL:reverse-suck; O=BAS:F↓]
+[AUT-MAP: I=BAS:filter~; G,S,K,P,R,F,O=BAS:filter~,formant~,resonance↑]
+[TRN-MAP: S>K:RISER+IMPACT; R>K:FILTER-SWEEP↑;
+K>F:RE-DROP; F>O:IMPACT+clean-tail]
+[SC-MAP: ALL=SUB<-KCK:1.0; ALL=BAS<-KCK:0.6]
+[FID-MAP: medium_class=digital-pristine; noise_floor=silent;
+bandwidth=full-20k; transient_char=hard-clipped;
+stereo_mode=wide-stereo; dynamic_range=modern-loud;
+warmth=cold-digital; artifact_budget=light]
+[MIX-MAP: NO_HIGH_CUT; WIDTH=pristine; mono-low; carve KCK/BAS]
+[MAST-MAP: PRISTINE; LUFS=-7; TP=-1.0dB]
+[LEGEND: SEC: I=Intro; G=Grid Attack; S=Sweeper Burst; K=Kinetic Drop;
+P=Pressure Lock; R=Rhythm Fracture; F=Final Overdrive; O=Outro |
+MRK: →=flow; ↑=build; ~ =mutate |
+FX: F=Filter P=Pump G=Gate |
+SFX: RISER=rising sweep; IMPACT=impact; RE-DROP=redrop after tease]
+
+[I]
+Move.
+Feel the weight.
+[G]
+Move it.
+Feel the pressure.
+[S]
+Move — move.
+Feel it hit.
+[K]
+Move it.
+Feel the pressure.
+Move — move.
+Feel it hit.
+[P]
+Move it.
+Feel the pressure.
+Move — move.
+Feel it hit.
+[R]
+Harder.
+Closer.
+Move it.
+[F]
+Feel the pressure.
+Move — move.
+Right now.
+[O]
+Move it.
+Feel the pressure.
+Move — move.
+Feel it hit.
+
+### COMPILED PROJECTION (Suno fields) ###
+
+STYLE (794/800):
+raw bassline techno, 128 BPM F minor, instant bass entry from 0:00, no fade-in, massive multi-layered bass wall: deep mono sub foundation, distorted talking-bass riff with vowel-formant sweeps, aggressive buzzing high-harmonics, relentless industrial kick, extreme sidechain pump creating breathing effect, syncopated bass stabs, gritty bitcrushed textures, metallic percussion, hypnotic mechanical groove, crushing club pressure, vocal chops as rhythmic hits only, no melody, no ambient intro, no breakdowns, wide stereo highs, tight mono low end, dirty but clear master, constant evolving timbre, heavy saturation, unstoppable energy, no standard bass plucks, pure rhythmic pressure, male raw shout vocal as percussion, pristine digital mastering, no high-cut.
+
+LYRICS:
+Zone B as above (markers + vocal text only, EN).
