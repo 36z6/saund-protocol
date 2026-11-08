@@ -1,0 +1,79 @@
+# SAUND v3.4 example — Horror Action "See You in Sleep" (128 BPM)
+# No beat. SFX as rhythm. Vocal morph normal -> horrifying.
+# Mosquito harsh lead appears/vanishes unpredictably.
+
+[GLOBAL: HORROR ACTION CINEMATIC; NO BEAT; NO KICK PATTERN;
+BROKEN GRID ONLY UNDER SUDDEN FX; MAX PRESSURE; CONSTANT MUTATION;
+NO SCREAM; EN ONLY; 128 BPM; F MINOR AEOLIAN DISSONANT NO RESOLVE.]
+[ARC: I G S K R P F O]
+[DUR-PLAN: TOTAL=2:47; I=14,G=22,S=21,K=24,R=20,P=23,F=26,O=17]
+[SPEAKERS: I=SPOKEN:SPOKEN_NARRATOR; G=MALE:HOLLOW_GROWL;
+S=FEMALE:DEMONIC_WAIL; K=DUET:DUET_CALLRESP;
+R=FEMALE:DEMONIC_WAIL; P=DUET:DUET_CALLRESP;
+F=DUET:DUET_CALLRESP; O=DUET:DUET_CALLRESP]
+[INST-MAP: KCK=impact-stinger-only/no-pattern; SUB=doom-drone/deep-punch/mono<120;
+BAS=filthy-elastic/buzzy-nasal/vowel-formant-sweep; PRC=chain-rattle/metal-tick/heartbeat;
+ATM=vinyl-hiss/tape-warp/gated-silence; SAW=mosquito-squeal/4-8kHz/abrupt-cut;
+PAD=doom-choir/dissonant/drone]
+[GRV-MAP: KCK=NONE; BROKEN_GRID; FX_EVENTS_ONLY_UNDER_SUDDEN_HITS; HEARTBEAT_PULSE]
+[SFX-MAP: I=heartbeat+breath+vinyl-hiss; G=sub-drop+chain-rattle+door-creak;
+S=glass-shatter+metal-screech+mosquito-sting; K=chain-drag+riser+mosquito-swarm;
+R=reverse-suck-in+gated-silence; P=choir-shriek+violin-screech;
+F=monster-roar+sub-drop+glass-shatter; O=tape-warp+TAPE-STOP]
+[WGT-MAP: I=SUB:0.2,ATM:0.2; G=SUB:0.4,BAS:0.4; S=SUB:0.6,BAS:0.6,SAW:0.6;
+K=SUB:0.8,BAS:0.8,SAW:0.8; R=SUB:0.3,ATM:0.3; P=SUB:0.8,BAS:0.8,SAW:0.8;
+F=SUB:0.9,BAS:0.9,SAW:0.9,PAD:0.8; O=ATM:0.1]
+[HRM-MAP: I=F/aeolian/i/close/0.2; K=F/aeolian/tritone-stab/open/0.8;
+F=F/aeolian/tritone-stab/open/1.0; O=F/aeolian/i/close/0.1]
+[FX-MAP: R=ATM:G; S=SAW:S↑; F=ALL:F↓; O=ALL:‹]
+[AUT-MAP: ALL=filter-mutate+formant-shift+gate; K=SUB:duck]
+[TRN-MAP: G>S:RISER; S>K:IMPACT; P>F:RISER+IMPACT; F>O:TAPE-STOP]
+[MIX-MAP: LEAD+VOC FORWARD; BASS DEEP; NO KICK DRIVE; WIDE UPPER; MONO SUB<120; NO_HIGH_CUT]
+[MAST-MAP: LUFS=-14; TP=-1; PRISTINE; FADE=none]
+[LEGEND: SEC: I=Intro; G=Grid Attack; S=Sweeper Burst; K=Kinetic Drop;
+R=Rhythm Fracture; P=Pressure Lock; F=Final Overdrive; O=Outro |
+MRK: ‹=close | FX: G=Gate S=Saturation F=Filter |
+SFX: mosquito=ultra-high harsh 4-8kHz squeal [USER] [SEM]]
+
+[I]
+Door.
+Breath.
+I am here.
+[G]
+Your heart.
+Beats for me.
+Don't run.
+[S]
+Don't open.
+I'm inside.
+[K]
+Steps?
+Not steps.
+Me.
+Run.
+[R]
+Shh.
+Behind you.
+Don't turn.
+[P]
+We waited.
+We're hungry.
+We're here.
+Inside.
+[F]
+Mine.
+Wake.
+Never.
+Wake. Wake.
+[O]
+See you in sleep.
+Wake.
+Or don't.
+
+### COMPILED PROJECTION (Suno fields) ###
+
+STYLE (788/800):
+horror action cinematic sound design, no beat, no kick pattern, broken grid, 128 BPM F minor, filthy elastic distorted doom bass, buzzy nasal mid, deep sub punch, vowel-formant sweep, ultra-high harsh mosquito lead 4-8kHz squeal appears vanishes unpredictably, acoustic SFX: glass shatter, chain rattle, door creak, heartbeat, breath, vinyl hiss, reverse suck-in, metal screech, tape warp, gated silence, violin screech, choir shriek, constant mutation filter formant pitch gate reverse bitcrush stutter, male hollow whisper to guttural growl, female normal to demonic wail formant drop pitch down layered whisper, no scream, max pressure, pristine wide mix, mono sub, no high-cut, -14 LUFS, English.
+
+LYRICS:
+Zone B as above (markers + vocal text only, EN).
