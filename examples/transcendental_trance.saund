@@ -1,0 +1,84 @@
+# SAUND v3.4 example — Transcendental Uplifting Trance (140 BPM)
+# Euphoric female vocal, evolving supersaw leads, emotional arcs.
+
+[GLOBAL: TRANSCENDENTAL UPLIFTING TRANCE × FUTURE RAVE; 140 BPM;
+EUPHORIC MINOR; CONTINUOUS_ENERGY; NO_OVERDEVELOPMENT;
+NO BREAKDOWNS; NO DEAD AIR; ONE FEMALE LEAD;
+VOCAL AND LEADS SHARE SPOTLIGHT, NO VOCAL TAKEOVER.]
+[ARC: I G K R P S F O]
+[DUR-PLAN: TOTAL=3:30; I=14,G=28,K=42,R=28,P=28,S=14,F=42,O=14]
+[SPEAKERS: G=FEMALE:POP_LEAD; K=FEMALE:POP_LEAD; R=FEMALE:POP_LEAD;
+P=FEMALE:POP_LEAD; S=FEMALE:POP_LEAD; F=FEMALE:POP_LEAD;
+O=FEMALE:POP_LEAD]
+[VOC-MAP: I=chest/breath/topline delivery/topline;
+G=chest/-/topline delivery/hook; K=chest/belt/wail/hook+melisma;
+P=chest/-/chant/hook; S=head/belt/wail/hook+stacking;
+F=head/belt/wail/hook+stacking; O=head/breath/topline delivery/riffs]
+[INST-MAP: KCK=trance-kick/punchy-tail/mono; SNR=clap-layer/909-snap;
+HAT=offbeat-open/16th-roll; BAS=rolling-offbeat/16th;
+SUB=sine-deep/duck-kick; PAD=supersaw-stack/ultra-wide/slow-attack;
+SAW=supersaw/unison-9/drive-mild; ATM=air/bright-wide]
+[GRV-MAP: KCK=FOUR_ON_FLOOR; SNR=CLAP_OFFBEAT;
+HAT=OFFBEAT_8TH+OPEN_ACCENT; BAS=ROLLING_16TH; PAD=ARP_1_8;
+SAW=SUSTAIN_LEAD+GATE_1_16@F]
+[LEAD-MAP: G=HOOK/SAW/MUTATE_TIMBRE/mid-high/hook;
+K=HOOK/SAW/HARMONIZE/mid-high/hook; R=COUNTER/SAW/COUNTERLINE/mid/answer;
+P=HOOK/SAW/OCTAVE_LIFT/high/hook; S=HOOK/SAW/VARIATION/high/hook;
+F=HOOK/SAW/FINAL_FUSION/high/hook; O=HIGH_MOTIF/SAW/STATIC/high/signature]
+[FX-MAP: K=SAW:R+D›P; S=ALL:W↑; F=SAW:R+D+Y(pan_L→R,2beats); O=ALL:‹]
+[SPC-MAP: F=ATM:Ψ(shimmer trail)]
+[AUT-MAP: S=SAW:filter↑,width↑; K=SUB:duck; O=ALL:‹]
+[TRN-MAP: G>K:RISER+IMPACT; P>S:FILTER-SWEEP↑; S>F:SNARE-ROLL+IMPACT;
+F>O:ECHO-OUT]
+[SC-MAP: K,S,F=SUB<-KCK:0.9; K,S,F=BAS<-KCK:0.6]
+[FID-MAP: medium_class=digital-pristine; noise_floor=silent;
+bandwidth=full-20k; transient_char=clean; stereo_mode=wide-stereo;
+dynamic_range=dynamic; warmth=neutral; artifact_budget=none]
+[MIX-MAP: NO_HIGH_CUT; WIDTH=pristine; VOCAL_FORWARD@G,K]
+[MAST-MAP: PRISTINE; LUFS=-8; TP=-1.0dB; FADE=none]
+[SYM: Ψ=spectral shimmer, domain=SPECTRAL_EFFECT, variants=[shimmer trail]]
+[LEGEND: SEC: I=Intro; G=Grid Attack; K=Kinetic Drop; R=Rhythm Fracture;
+P=Pressure Lock; S=Sweeper Burst; F=Final Overdrive; O=Outro |
+MRK: →=flow; ↑=build; ‹=close | FX: R=Reverb D=Delay P=Pump W=Widen Y=Fly-by |
+NOTE: Ψ=spectral shimmer [USER] [SEM] scope=SPECTRAL target=ATM |
+SLOT: KCK=kick; SNR=snare; HAT=hats; BAS=bass; SUB=sub; PAD=pad; SAW=saw; ATM=atmosphere]
+
+[I]
+[G]
+Я закрывала глаза,
+Чтоб не увидеть рассвет.
+Но в глубине тишины
+Кто-то оставил мне свет.
+[K]
+Я поднимаюсь выше,
+Выше земных границ.
+Сердце становится ближе
+К свету далёких зарниц.
+[R]
+Я собирала себя
+Из отражений и снов.
+Каждый мой шаг в темноте
+Становился сильней ветров.
+[P]
+Я отпускаю небо,
+Чтобы коснуться звёзд.
+Я не исчезну больше
+В мире несказанных слов.
+[S]
+Я больше не боюсь
+Собственных высот.
+Там, где кончается грусть,
+Новая жизнь поёт.
+[F]
+Я поднимаюсь выше,
+Выше земных границ.
+Я не исчезну больше —
+Я выбираю свет!
+[O]
+Я выбираю свет —
+И открываю мир!
+
+
+
+STYLE (780/800):
+TRANSCENDENTAL UPLIFTING TRANCE × FUTURE RAVE, 140 BPM, euphoric minor, breathtaking female vocal, extraordinary emotional delivery, intimate vulnerability to radiant exaltation, fluid tonal inflections, graceful melismas, soaring sustained high notes, natural vibrato, evolving supersaw leads, cascading melodic mutations, intertwining counter-leads, octave lifts, spiraling arpeggios, luminous harmonic shifts, rolling bass propulsion, thunderous four-on-floor kick, kinetic percussion, ecstatic tension-release, monumental melodic climax, relentless forward motion, spectral echoes, stereo fly-bys, pristine mastering, silent noise floor, full 20kHz, no high-cut, no breakdowns, no instrumental swells, no drift, explicit Russian vocals.
