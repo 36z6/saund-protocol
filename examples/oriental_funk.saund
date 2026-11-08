@@ -1,0 +1,76 @@
+# SAUND v3.4 example — Heavy Oriental Hip-Hop × Electro Funk (102 BPM)
+# Eastern identity from vocal phrasing/melisma, NOT ethnic instruments.
+
+[GLOBAL: HEAVY ORIENTAL HIP-HOP + ELECTRO FUNK + HARD BOUNCE; 102 BPM;
+F MINOR; EGYPTIAN ARABIC DIALECT ONLY; MALE AND FEMALE EASTERN VOCAL
+AVATARS; HIGH POSITIVE ENERGY; CONTINUOUS GROOVE; NO BREAKDOWNS;
+NO ENGLISH VOCALS; NO TRAP.]
+[ARC: I G K P R F O]
+[DUR-PLAN: TOTAL=2:40; I=10,G=30,K=40,P=20,R=30,F=40,O=10]
+[SPEAKERS: I=SPOKEN:SPOKEN_NARRATOR; G=MALE:RAGGA_TOASTER;
+K=FEMALE:POP_LEAD+GROUP:CHOIR_STACK; P=MALE:RAGGA_TOASTER;
+R=MALE:RAGGA_TOASTER+FEMALE:POP_LEAD; F=FEMALE:POP_LEAD+MALE:RAGGA_TOASTER
++GROUP:CHOIR_STACK; O=SPOKEN:SPOKEN_NARRATOR+GROUP:CHOIR_STACK]
+[VOC-MAP: G=chest/-/rap-flow/chant; K=chest/belt/wail/hook+melisma;
+P=chest/-/chant/call-and-response; R=chest/-/rap-flow/ad-libs;
+F=head/belt/wail/hook+melisma+stacking; O=chest/-/chant/stack]
+[INST-MAP: KCK=hard-kick/punch/mono; SNR=clap-layer/bright-snap;
+HAT=tight/16th-shuffle; BAS=808-sub/distorted-low/mono;
+SUB=sine-deep/duck-kick; SYN=electro-riff/aggressive;
+SAW=electro-stab/mid-width; ATM=crowd-bed/wide]
+[GRV-MAP: KCK=FOUR_ON_FLOOR+bounce; SNR=BACKBEAT_2_4; HAT=SHUFFLE_16TH;
+BAS=SYNCOPATED_FUNK; SUB=SUB_LONG; SYN=RIFF_1_8]
+[LEAD-MAP: G=RIFF/SYN/~/mid/none; K=HOOK/SYN/HARMONIZE/mid/hook;
+F=HOOK/SYN/FINAL_FUSION/mid-high/hook]
+[FX-MAP: K=SYN:F+P; P=VOCAL:G; F=ALL:W↑; O=ALL:‹]
+[TRN-MAP: G>K:RISER+IMPACT; P>R:FILTER-SWEEP; R>F:SNARE-ROLL+IMPACT]
+[SC-MAP: K,F=SUB<-KCK:0.9; BAS<-KCK:0.7]
+[FID-MAP: medium_class=digital-pristine; noise_floor=silent;
+bandwidth=full-20k; transient_char=clean; stereo_mode=wide-stereo;
+dynamic_range=modern-loud; warmth=neutral; artifact_budget=none]
+[MIX-MAP: SUB very powerful but controlled; KCK and SUB distinct;
+VOCALS FORWARD; WIDTH=pristine]
+[MAST-MAP: PRISTINE; LUFS=-8; TP=-1.0dB]
+[LEGEND: SEC: I=Intro; G=Grid Attack; K=Kinetic Drop; P=Pressure Lock;
+R=Rhythm Fracture; F=Final Overdrive; O=Outro | MRK: →=flow; ↑=build; ‹=close |
+FX: F=Filter P=Pump G=Gate W=Widen | SLOT: KCK=kick; SNR=snare; HAT=hats;
+BAS=bass; SUB=sub; SYN=electro-riff; SAW=saw; ATM=atmosphere]
+
+[I]
+يلا! يلا!
+علي الصوت!
+جاهزين؟ يلا نولّع!
+[G]
+إحنا دخلنا، كله قام
+صوتنا عالي، هزّ المكان
+خطوة تقيلة، bass في الصدر
+والليلة دي مفيهاش خطر
+[K]
+يا ليل يا عين، تعالى معانا
+خلّي الفرحة تنوّر دنيانا
+يلا نولّع، يلا نعيش
+خلّي قلبك يدقّ ويطيش
+[P]
+ارفع إيدك! دوس جامد!
+يمين! شمال! والكلّ يشارك!
+[R]
+Bass تقيل، والنبض سريع
+داخل جامد، صوتي مسموع
+ضربة، سكتة، رجوع أقوى
+كلّ ما نعلى، الفرحة تحلى
+[F]
+يا ليل يا عين، يا سلام
+خلّي الفرحة تعلى كمان
+يلا نولّع، يلا نولّع
+والفرحة في كلّ مكان!
+[O]
+يلا! يلا! يلا نولّع!
+علي الصوت!
+
+### COMPILED PROJECTION (Suno fields) ###
+
+STYLE (664/800):
+Heavy oriental hip-hop, electro funk, hard bounce breakbeat, 102 BPM, F minor, massive distorted sub-bass, deep chest-rattling 808 sub, tight punchy kick, aggressive syncopated bass groove, powerful Egyptian Arabic male vocal avatar, deep gritty chest voice, sharp rhythmic Arabic phrasing, authentic Egyptian colloquial pronunciation, expressive Arabic melisma, powerful Egyptian Arabic female vocal avatar, bright ornamented vocal runs, dramatic pitch turns, eastern vocal inflections, male-female call-and-response, explosive crowd chants, brutal confident delivery, uplifting celebratory energy, relentless groove, frequent drum fills, bass drops, vocal chops, scratch transitions, pristine wide mix, deep mono-compatible sub, clean punchy mastering. Eastern identity comes from vocal phrasing and ornamentation, not ethnic instruments. No English vocals, no trap, no breakdowns.
+
+LYRICS:
+Zone B as above (markers + Egyptian Arabic vocal text only).
