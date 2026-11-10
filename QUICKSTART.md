@@ -10,34 +10,55 @@ Start with any file in `/examples`:
 - `oriental_funk.saund` — Egyptian Arabic vocal + electro funk
 - `horror_action.saund` — no beat, SFX as rhythm, vocal morph
 
-## 2. Copy into Suno
+## 2. Find the compiled Suno fields
 
-1. Open the example file
-2. Copy **Zone A** (from `[GLOBAL]` to `[LEGEND]`) → paste into Suno **"Style of Music"**
-3. Copy **Zone B** (section markers `[I]`, `[G]`... + vocal text) → paste into Suno **"Lyrics"**
-4. Press **Create**
+Scroll to the **bottom** of the example file. You will find this block:
 
-## 3. Make it yours
+```
+### COMPILED PROJECTION (Suno fields) ###
+
+STYLE (780/800):
+...one optimized line...
+
+LYRICS:
+Zone B as above...
+```
+
+This is the output ready to paste into Suno.
+
+## 3. Copy into Suno
+
+1. Copy the single line under **STYLE (XXX/800):** → paste into Suno **"Style of Music"**
+2. Copy the **Zone B** block (from the first section marker `[I]` to the last line of vocal text) → paste into Suno **"Lyrics"**
+3. Press **Create**
+
+> **Why not paste the whole Zone A?** Zone A is the *protocol source* (directives, maps, legend) — it is longer than Suno's 800-char field and is meant for the SAUND compiler to read, not for Suno directly. The `STYLE (XXX/800)` line is the *compiled*, ceiling-safe version of Zone A. Always use it.
+
+## 4. Make it yours
 
 Change any of these, leave the rest alone:
-- **Tempo / key** → edit the `[GLOBAL]` line
+- **Tempo / key** → edit the `[GLOBAL]` line in Zone A, then rebuild the STYLE line
 - **Section order** → edit `[ARC: I G S K R P F O]`
-- **Vocal text** → edit Zone B lines under each marker
+- **Vocal text** → edit Zone B lines under each marker (this does not require rebuilding STYLE)
 - **Language** → change `EN ONLY` / `Русский` in `[GLOBAL]`
 
-## 4. Validate (optional)
+If you only change vocal text in Zone B, you do not need to touch STYLE at all.
+
+## 5. Validate (optional)
 
 If you have Python:
 ```bash
 python tools/saund-validate.py examples/your_file.saund
 ```
 
-## 5. Rules of thumb
+Expected: `RELEASED` with all gates green. If you see `BLOCKED`, the file is broken somewhere — fix and re-run.
 
-- Zone A ≤ **800 chars** (Suno ceiling)
-- Zone B ≤ **4000 chars** (Suno ceiling)
+## 6. Rules of thumb
+
+- `STYLE (XXX/800)` must be ≤ **800 chars** (Suno ceiling)
+- Zone B must be ≤ **4000 chars** (Suno ceiling)
 - **No technical directives** inside Zone B (only `[I]`, `[G]`... markers + vocal text)
-- Every letter code you use **must appear** in `[LEGEND]`
+- Every letter code you use in Zone A **must appear** in `[LEGEND]`
 
 ## Want the reverse path?
 
